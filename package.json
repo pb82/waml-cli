@@ -1,0 +1,26 @@
+{
+  "name": "waml-cli",
+  "version": "0.0.1",
+  "description": "WAML Compiler CLI Frontend",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "waml": "dist/waml"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Peter Braun <peter-braun@gmx.net>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/bluebird": "^3.5.5",
+    "@types/commander": "^2.9.1",
+    "@types/node": "^7.0.27",
+    "@types/winston": "^2.3.3",
+    "bluebird": "^3.5.0",
+    "commander": "^2.9.0",
+    "winston": "^2.3.1"
+  }
+}
