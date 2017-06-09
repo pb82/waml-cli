@@ -10,6 +10,7 @@
     "pretty": true,
     "watch": true,
     "module": "CommonJS",
+    "sourceMap": true,
     "typeRoots": [
       "node_modules/@types",
       "../waml-compiler/dist/**/*"

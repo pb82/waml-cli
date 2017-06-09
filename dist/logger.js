@@ -32,3 +32,4 @@ function setLogLevel(level) {
     logger.transports.console.level = level;
 }
 exports.setLogLevel = setLogLevel;
+//# sourceMappingURL=logger.js.map
